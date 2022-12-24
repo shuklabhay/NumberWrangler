@@ -1,7 +1,7 @@
 from random import SystemRandom, choice
 
 # Wrangler function
-def Wrangle(number, multiplier=1, add=False, subtr=False, Round=0): ##maybe specify add or remove wrangle or have 2 funct
+def Variate(number, multiplier=1, add=False, subtr=False, Round=0): ##maybe specify add or remove wrangle or have 2 funct
     # Verifying inputs
     if isinstance(number, (int, float)) and isinstance(multiplier, (int, float)) and isinstance(Round, int) and isinstance(add, bool) and isinstance(subtr, bool):
 
