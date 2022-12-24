@@ -1,5 +1,7 @@
+# Import Package
 from NumberWrangler import Wrangler
 
+#Create a Variate object for simplicity
 Variate = Wrangler.Variate
 
 # Variate a number close to 12
