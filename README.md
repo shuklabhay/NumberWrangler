@@ -1,6 +1,6 @@
 # NumberWrangler
 
-**Variate** numbers!
+**Variate** numbers within a certain range!
 
 ## Instructions
 
@@ -47,4 +47,5 @@ print(Variate(number=12, subtr=True))
 print(Variate(number=12, subtr=True))
 
 # Now use any combination of these methods!
+# Generates a new number after each use.
 ```
