@@ -28,22 +28,25 @@ print(Variate(number=12))
 ## Documentation and Examples
 
 ```python
-# Variate a number close to 12
+# Import Package
+from NumberWrangler import Wrangler
+
+# Create a Variate object
+Variate = Wrangler.Variate
+
+# Create a number close to 12
 print(Variate(number=12))
 
-# Variate a number far from 12
+# Create a number far from 12
 print(Variate(number=12, multiplier=200))
 
-# Variate a number close to 12 that is a float
-print(Variate(number=12, Round=5))
+# Create a number close to 12 rounded to the fifth place
+print(Variate(number=12, round=5))
 
-# Variate a number close to 12 that is adding
+# Create a number close to but more than 12
 print(Variate(number=12, add=True))
 
-# Variate a number close to 12 that is subtracting
-print(Variate(number=12, subtr=True))
-
-# Variate a number close to 12 that is subtracting
+# Create a number close to but less than 12
 print(Variate(number=12, subtr=True))
 
 # Now use any combination of these methods!
