@@ -1,6 +1,6 @@
 # NumberWrangler
 
-**Variate** numbers within a certain range!
+**Variate** numbers within a certain range and based on one central point.
 
 ## Instructions
 
